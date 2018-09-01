@@ -45,26 +45,26 @@ library
   exposed-modules:
     Servant.Server.Experimental.Auth.Cookie
 
-  build-depends: base           >= 4.7   && < 5.0
+  build-depends: base           >= 4.7
                , base64-bytestring
-               , blaze-builder  >= 0.4   && < 0.4.2
+               , blaze-builder  >= 0.4
                , bytestring
-               , cereal         >= 0.5   && < 0.6
-               , cereal-time    >= 0.1   && < 0.2
-               , cookie         >= 0.4.1 && < 0.5
-               , cryptonite     >= 0.14  && < 0.26
+               , cereal         >= 0.5
+               , cereal-time    >= 0.1
+               , cookie         >= 0.4.1
+               , cryptonite     >= 0.14
                , data-default
-               , exceptions     >= 0.8   && < 0.11
-               , http-types     >= 0.9   && < 0.13
-               , memory         >= 0.11  && < 0.15
-               , mtl            >= 2.0   && < 3.0
-               , servant        >= 0.5   && < 0.15
-               , servant-server >= 0.5   && < 0.15
+               , exceptions     >= 0.8
+               , http-types     >= 0.9
+               , memory         >= 0.11
+               , mtl            >= 2.0
+               , servant        >= 0.5
+               , servant-server >= 0.5
                , tagged         == 0.8.*
                , text
-               , time           >= 1.6   && < 1.8.1
-               , transformers   >= 0.4   && < 0.6
-               , wai            >= 3.0   && < 3.3
+               , time           >= 1.6
+               , transformers   >= 0.4
+               , wai            >= 3.0
 
   if flag(dev)
     ghc-options:      -Wall -Werror
